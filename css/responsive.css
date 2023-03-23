@@ -134,6 +134,9 @@
   .intro-wrapper__prod {
     right: 2px;
   }
+  .intro-wrapper__discount {
+    right: 12px;
+  }
 }
 
 @media (max-width: 374px) {
@@ -152,7 +155,8 @@
     font-size: 26px;
   }
   .intro-discount__text {
-    font-size: 16px;
+    font-size: 10px;
+    line-height: 12px;
   }
   .intro-discount__value {
     font-size: 30px;
@@ -165,7 +169,7 @@
     margin: 10px 0;
   }
   .theme-button__text {
-    font-size: 21px;
+    font-size: 19px;
   }
   .theme-button {
     height: 65px;
@@ -198,7 +202,8 @@
     line-height: 32px;
   }
   .cta-content__text {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .cta-price__new {
     font-size: 42px;
@@ -238,7 +243,13 @@
   .form-box__input {
     font-size: 15px;
   }
-  
+  .about-content__title > br,
+  .about-content__text > br {
+    display: none;
+  }
+  .intro-head__price {
+    padding-left: 4px;
+  }
 }
 
 @media (max-width: 350px) {

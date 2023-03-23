@@ -99,9 +99,9 @@
   top: 85px;
 }
 .intro-discount__text {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 22px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
   text-align: center;
   text-transform: uppercase;
   color: #6319FF;
@@ -364,8 +364,8 @@
   font-family: var(--theme-font);
   font-style: normal;
   font-weight: 500;
-  font-size: 23px;
-  line-height: 28px;
+  font-size: 21px;
+  line-height: 26px;
   color: #FFFFFF;
   display: block;
   margin-top: 12px;
@@ -437,8 +437,8 @@
 /* Specs */
 .specs {
   background-image: url(../img/specs-bg.png);
-  -webkit-background-size: contain;
-  background-size: contain;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -524,7 +524,7 @@
 }
 .reviews-item {
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-  height: 680px;
+  height: 700px;
   background: #fff;
 }
 .reviews-item:last-child {
